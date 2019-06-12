@@ -12,7 +12,7 @@ To use this package in your CI, try adding this to your `.gitlab-ci.yml` file:
 
 ```
 build_docker_image:
-    image: adamdeacon/docker-gke
+    image: MangoTheCat/docker-gke
     tags:
         - el7
     stage: build
